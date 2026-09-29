@@ -1,4 +1,4 @@
-resource "storage_account" "storage_account" {
+resource "azurerm_storage_account" "storage_account" {
   for_each = var.sas
   name                     = each.value.name
   resource_group_name      = each.value.resource_group_name
