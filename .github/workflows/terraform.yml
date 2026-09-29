@@ -29,10 +29,10 @@ jobs:
           terraform_version: 1.5.0
 
       - name: Terraform Init
-        run: terraform -chdir=new_infra_pipeline/Azurerm_Resource_Group init
+        run: terraform -chdir=new_infra_pipeline/common_hall init
 
       - name: Terraform Validate
-        run: terraform -chdir=new_infra_pipeline/Azurerm_Resource_Group validate
+        run: terraform -chdir=new_infra_pipeline/common_hall validate
 
       - name: Terraform Plan
-        run: terraform -chdir=new_infra_pipeline/Azurerm_Resource_Group plan
+        run: terraform -chdir=new_infra_pipeline/common_hall plan
