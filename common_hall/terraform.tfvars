@@ -9,8 +9,8 @@ resource_groups = {
   }
 
   
-  rg3 = {
-    name     = "rgas2"
+  rg4 = {
+    name     = "rgas3"
     location = "West US"
   }
 }
