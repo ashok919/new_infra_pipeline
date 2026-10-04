@@ -17,18 +17,11 @@ resource_groups = {
 
 storage_accounts = {
   sa1 = {
-    name                     = "sa1"
+    name                     = "sa11"
     resource_group_name      = "rgas"
     location                 = "East US"
     account_tier             = "Standard"
     account_replication_type = "LRS"
   }
 
-  sa2 = {
-    name                     = "sa2"
-    resource_group_name      = "rgas1"
-    location                 = "West US"
-    account_tier             = "Standard"
-    account_replication_type = "LRS"
-  }
 }
