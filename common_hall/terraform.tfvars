@@ -17,7 +17,7 @@ resource_groups = {
 
 storage_accounts = {
   sa1 = {
-    name                     = "sa11"
+    name                     = "sanegi11"
     resource_group_name      = "rgas"
     location                 = "East US"
     account_tier             = "Standard"
