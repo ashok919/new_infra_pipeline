@@ -39,6 +39,6 @@ jobs:
 
     # यह स्टेप सिर्फ तब चलेगा जब कोड main ब्रांच में पुश या मर्ज होगा
       - name: Terraform Apply
-        if: ${{ github.ref == 'refs/heads/main' && github.event_name == 'push' }}
-        run: terraform -chdir=common_hall apply -auto-approve
+          if: ${{ github.ref == 'refs/heads/main' && github.event_name == 'push' }}
+          run: terraform -chdir=common_hall apply -auto-approve
 
